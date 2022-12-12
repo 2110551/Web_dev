@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to bottom, #0000ff -11%, #cc00cc 135%);
+}
+
+.box1 {grid-area: header;}
+.box2 {grid-area: a;}
+.box3 {grid-area: b;}
+.box4 {grid-area: c;}
+.box5 {grid-area: d;}
+.box6 {grid-area: e;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header'
+    'a b c d e ';
+    gap: 10px;
+    background-color: rgba(120, 31, 155, 0.349);
+    padding: 10px;
+}
+.grid-container div{
+    border-radius:10px ;
+    background-color: rgb(132, 35, 156);
+    text-align: center;
+    padding:20px 0;
+    font-size:30px;
+}
+#linkbox{
+    border-radius: 25px;
+    background-color: rgb(19, 224, 53);
+    text-align: center;
+    padding:15px;
+    font-size:15px;
+}

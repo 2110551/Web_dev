@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+      table, th {border: 1px solid black;}
+    </style>
+  </head>
+  <link rel="stylesheet" href="css/page.css">
+  
+  <div class = "grid-container">
+    <div class="box1">Welcome to my Website</div>
+    <div id="linkbox"><a href="Home.html">Home</a></div>
+    <div id="linkbox"><a href="Image.html">Image</a></div>
+    <div id="linkbox"><a href="Video.html">Video</a></div>
+    <div id="linkbox"><a href="Form.html">Form</a></div>
+    <div id="linkbox"><a href="Website.html">Website</div>
+  </div>
+<body>
+
+
+<br><br>
+
+<h3 align="center">Form</h3>
+<!--Form-->
+<form action="server.com" method="post">
+<table id="form" align="center">
+<tr>
+  <td>
+    Name: 
+  </td>
+  <td>
+   <input type="text" placeholder="Enter your first name" name="name">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    E-mail 
+  </td>
+  <td>
+    <input type="text" placeholder="Enter Valid E-mail" name="Email">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Password: 
+  </td>
+  <td>
+    <input type="password" placeholder="Enter password" name="password1">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Re-Password: 
+  </td>
+  <td>
+    <input type="password" placeholder="Enter password again" name="password2">
+  </td>
+</tr>
+
+<tr><!--<hr>-->
+  <td colspan="2">
+    <hr>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    DOB:  
+  </td>
+  <td>
+    <input type="date"  name="dob">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Gender:
+  </td>
+  <td>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Other
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Choose course: 
+  </td>
+  <td>
+    <select name="course">
+      <option value="CSE">Computer Science Engineering</option>
+      <option value="ETC">Electronics Engineering</option>
+      <option value="Elect">Electrical Engineering</option>
+      <option value="Civil">Civil Engineering</option>
+      <option value="Mech">Mechanical Engineering</option>
+    </select>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Disability if any: 
+  </td>
+</tr>
+<tr>
+  <td class="right_text">
+    <input type="checkbox">
+  </td>
+  <td>
+    Blind
+  </td>
+</tr>
+<tr>
+  <td class="right_text">
+    <input type="checkbox">
+  </td>
+  <td>
+    Deaf
+  </td>
+</tr>
+<tr>
+  <td class="right_text">
+    <input type="checkbox">
+  </td>
+  <td>
+    Broken Leg
+  </td>
+</tr>
+
+<tr>
+  <td>
+    Address
+  </td>
+  <td>
+    <textarea name="address" placeholder="Enter Address" style="width: 90%; height:100px;" ></textarea>
+  </td>
+</tr>
+
+<tr><!--2<hr>-->
+  <td colspan="2">
+    <hr>
+  </td>
+</tr>
+<!--Button-->
+<tr>
+  <td style="text-align: right;">
+    <input type="submit">
+  </td>
+  <td style="text-align: center;">
+    <input type="reset">
+  </td>
+</tr>
+</table>
+</form>
+
+</body>
+
+
+</html>
