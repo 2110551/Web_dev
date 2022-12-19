@@ -4,8 +4,9 @@
     padding: 1em 0;
     display: block-inline;
     width: 350px;
-    background-color: #444;
+    background-color: rgb(62, 31, 134);
     border-radius: 25px;
+    box-shadow: 5px 5px 15px 3px rgb(190, 112, 226);
   }
 
   .row{
@@ -35,6 +36,7 @@
     margin: 7px 5px;
     border-radius: 15px;
     width: 50px;
+    box-shadow: 2px 2px 1px 1px #222;
   }
 
   #long_button {
