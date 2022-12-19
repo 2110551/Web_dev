@@ -1,0 +1,25 @@
+div.block {
+    margin: 5%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  
+  div.block:hover {
+    border: 1px solid #777;
+  }
+  
+  div.block img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.block video {
+    width:100%;
+    height: auto;
+  }
+  
+  div.text {
+    padding: 15px;
+    text-align: center;
+  }
