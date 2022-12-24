@@ -6,53 +6,66 @@
 
 <link rel="stylesheet" href="css/nav.css">
 <link rel="stylesheet" href="css/Cal.css">
-<!--<script src="js/cal.js"></script>-->
+<script src="js/cal.js"></script>
+
 <!--Navigation bar-->
 <div class="topnav">
+
     <a href="Index.html">Home</a>
     <a class="active" href="Cal.html">Calculater</a>
     <a href="Feedback.html" id="rightnav">Feedback</a>
+
 </div>
 
 <body>
 
-    <div class="base">
-        <div class="row">
-          <div class="display">0</div>
-        </div>
+    <div class="button_alignment">
 
-    <div class="row">
-        <div  id="long_button">Clear</div>
-        <div id="long_button">Back</div>
-    </div>
+        <form name="form">
+            <input class="display" name="textview">
+        </form>
 
-    <div class="row">
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>/</div>
-    </div>
+        <table>
 
-    <div class="row">
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>*</div>
-    </div>
+            <tr>
+                <td colspan="2"><input class="long_button" style="width:110;" type="button" value="AC" onclick="AC()"></td>
+                <td><input class="button" type="button" value="%" onclick="input('%' )"></td>
+                <td><input class="button" type="button" value="/" onclick="input('/')"></td>
+            </tr>
 
-    <div class="row">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>-</div>
-    </div>
+            <tr>
 
-    <div class="row">
-        <div>0</div>
-        <div >+</div>
-        <div  id="long_button">=</div>
+                <td><input class="number_button" type="button" value="7" onclick="input(7)"></td>
+                <td><input class="number_button" type="button" value="8" onclick="input(8)"></td>
+                <td><input class="number_button" type="button" value="9" onclick="input(9)"></td>
+                <td><input class="button" type="button" value="x" onclick="input('*')"></td>
+
+            </tr>
+
+            <tr>
+                <td><input class="number_button" type="button" value="4" onclick="input(4)"></td>
+                <td><input class="number_button" type="button" value="5" onclick="input(5)"></td>
+                <td><input class="number_button" type="button" value="6" onclick="input(6)"></td>
+                <td><input class="button" type="button" value="-" onclick="input('-')"></td>
+            </tr>
+
+            <tr>
+                <td><input class="number_button" type="button" value="1" onclick="input(1)"></td>
+                <td><input class="number_button" type="button" value="2" onclick="input(2)"></td>
+                <td><input class="number_button" type="button" value="3" onclick="input(3)"></td>
+                <td><input class="button" type="button" value="+" onclick="input('+')"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input class="long_button" style="width:110;" type="button" value="0" onclick="input(0)"></td>
+                <td><input class="number_button" type="button" value="." onclick="input('.')"></td>
+                <td><input class="button" type="button" value="=" onclick="result()"></td>
+            </tr>
+
+        </table>
+
     </div>
-    </div>
+    <div class="Calculater_frame"></div>
 
 </body>
 
