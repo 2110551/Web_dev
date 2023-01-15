@@ -1,0 +1,6 @@
+Assignment 4
+===============================================================================
+1. Why cache memory is needed? How does it work? Explain with examples.
+2. Why virtual memory is needed? How does it work? Explain with examples.
+3. Why memory interleaving is done? Explain different types of it with examples.
+4. Why page table is required?

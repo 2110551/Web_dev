@@ -1,0 +1,7 @@
+Assignment 3
+===============================================================================
+1. Define MIPS, MOPS & FLOPS.
+2. Explain different address instruction format with examples of each.
+3. Explain different addressing modes with examples of each.
+4. Explain diifferent organizations for datapath design with examples of each.
+5. Explain diifferent organizations for control flow with examples of each.
