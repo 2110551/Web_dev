@@ -8,3 +8,5 @@ web_dev_v2 is CSA study material website. I'm making to to learn BootStrap
 
 Current Issue:
    1. Missed out 1 chapter memory Unit (web_deb_v2)
+
+   testing in linux
